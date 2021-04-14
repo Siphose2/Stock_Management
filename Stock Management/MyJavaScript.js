@@ -103,7 +103,8 @@ function newSale(email, productName, qty) {
        var curP = products[foundProdName];
         if ((curP.quantity - qty) === 0) {
             produts.splice(foundProdName, 1);
-        } else {
+        }
+        if ((curP.quantity - qty) > 0) {
             curP.quantity -= qty;
         }
 
