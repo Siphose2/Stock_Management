@@ -1,0 +1,54 @@
+﻿body {
+    width: 80%;
+    margin: auto;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 2em;
+
+}
+
+.container{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add_stock {
+    flex-basis: 100%;
+    border: 1px solid lightgray;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+.add_stock_table {
+    padding: 1em;
+}
+.qty_txtB {
+    width: 45px;
+}
+.priceTxtB {
+    width: 65px;
+}
+
+
+.remove_stock {
+    flex-basis: 100%;
+    border: 1px solid lightgray;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+}
+.products_table{
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+.products_table td {
+    border: 1px solid black;
+    padding: 6px 15px 6px 15px;
+}
+
+.stock_levels_and_Average_prices {
+        flex-basis: 100%;
+        border: 1px solid lightgray;
+        padding: 1.5em;
+}
+
