@@ -47,7 +47,7 @@
 
                      <tr>
                          <td colspan="2">
-                             <input type="button" value="Add Product" onclick="newProduct()"/>
+                             <input type="button" value="Add Product" onclick="addNewProduct()"/>
                          </td>
                      </tr>
                      

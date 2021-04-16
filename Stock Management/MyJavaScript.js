@@ -69,6 +69,7 @@ function listProducts() {
 }
 
 function newSale(email, productName, qty) {
+    var removeResponse = document.getElementById('removeResponse');
     removeResponse.innerHTML = '';
     var salesCount = sales.length;
     var foundEmail = -1;
@@ -85,7 +86,6 @@ function newSale(email, productName, qty) {
 
         // if found arlert user
         if (foundEmail > 0) {
-            var response = document.getElementById('removeResponse');
             removeResponse.innerHTML = " Email (" + email + ") already exist. Try a new email.";
             return;
         }
@@ -102,7 +102,7 @@ function newSale(email, productName, qty) {
        sales.push(email);
        var curP = products[foundProdName];
         if ((curP.quantity - qty) === 0) {
-            produts.splice(foundProdName, 1);
+            products.splice(foundProdName, 1);
         }
         if ((curP.quantity - qty) > 0) {
             curP.quantity -= qty;
