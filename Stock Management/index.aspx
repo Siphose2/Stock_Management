@@ -6,7 +6,8 @@
 <head runat="server">
     <title>Stock Management</title>
     <link href="MyStyleSheet.css" rel="stylesheet" />
-    <script src="MyJavaScript.js"></script>
+  <%--  <script src="MyJavaScript.js"></script>--%>
+    <script src="myTypeScript.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
